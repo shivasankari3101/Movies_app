@@ -1,5 +1,6 @@
-.App{
-  background-color: #333c4e; 
+.Home{
+  background-color: #333c4e;
+  min-height: 100vh; 
 }
 
 .header{
