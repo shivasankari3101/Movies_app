@@ -42,7 +42,7 @@
   display: grid;
   grid-template-rows: 20% 70% 10%;
   margin: 2%;
-  padding: 1%;
+  padding: 2%;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
   text-align: center;
   transition: 0.3s;
@@ -58,11 +58,12 @@
   width: 100%;
   height: 100%;
   transform: rotateY(180deg);
-  background-color: #fff;
-  color: #333c4e;
+  background-color: #333c4e;
   display: flex;
+  padding: 1%;
   flex-direction: column;
   justify-content: space-evenly;
+  font-size: 0.9em;
 }
 
 .voteaverage{
@@ -97,8 +98,12 @@
   .Movie{
     transition: 0.3s;
   }
-
+  
+  .overlay{
+    transform:rotateY(180deg);
+    font-size: 0.8em;
+  }
   .Movie:hover{
-    transform: scale(1.002);
+    transform:rotateY(180deg);
   }
 }
