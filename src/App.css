@@ -59,6 +59,7 @@
 .overlay{
   position: absolute;
   left: 1%;
+  top: 1%;
   width:98%;
   height: 98%;
   transform: rotateY(180deg);
